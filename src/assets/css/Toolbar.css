@@ -63,7 +63,7 @@ html, body, #root {
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
-    flex-grow: 1;
+    align-self: flex-start;
 }
 
 .nav-logo img{
@@ -120,8 +120,10 @@ html, body, #root {
 
 @media screen and (max-width: 960px) {
     .nav-item {
-
-        padding-right: 0px;
+        padding: 0 !important;
+    }
+    a{
+        padding: 0 !important;
     }
     .nav-menu {
         display: flex;
