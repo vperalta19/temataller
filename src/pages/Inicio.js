@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import '../assets/css/Inicio.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGuitar, faUsers } from '@fortawesome/free-solid-svg-icons'
 
 export default class Inicio extends Component {
   render() {
@@ -23,13 +25,35 @@ export default class Inicio extends Component {
 				</div>
 				<div className='info-boxes-container'>
 					<div className='info-box'>
+						<FontAwesomeIcon icon={faGuitar} className='icon'/>
 
+						<div className='title'>
+							Metodología Suzuki
+						</div>
+						<div className='text'>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, 
+                            mattis tellus.
+						</div>
 					</div>
 					<div className='info-box'>
-						
+						<FontAwesomeIcon icon={faUsers} className='icon'/>
+						<div className='title'>
+							Todas las edades
+						</div>
+						<div className='text'>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, 
+                            mattis tellus.
+						</div>
 					</div>
 					<div className='info-box'>
-						
+						<FontAwesomeIcon icon={faGuitar} className='icon'/>
+						<div className='title'>
+							Blablabla
+						</div>
+						<div className='text'>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, 
+                            mattis tellus.
+						</div>
 					</div>
 				</div>
             </div>

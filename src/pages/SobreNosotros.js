@@ -22,16 +22,16 @@ export default class SobreNosotros extends Component {
                         </div>
                     </div>
                     <div className='social-media'>
-                        <a target="_blank" href='https://www.instagram.com/roberto00peralta/?hl=es-la' style={{textDecoration:'none',color: 'black'}}>
+                        <a rel="noreferrer" target="_blank" href='https://www.instagram.com/roberto00peralta/?hl=es-la' style={{textDecoration:'none',color: 'black'}}>
                             <FontAwesomeIcon icon={faInstagram} className='icon'/>
                         </a>
-                        <a target="_blank" href='https://twitter.com/roberto_peralta' style={{textDecoration:'none',color: 'black'}}>
+                        <a rel="noreferrer" target="_blank" href='https://twitter.com/roberto_peralta' style={{textDecoration:'none',color: 'black'}}>
                             <FontAwesomeIcon icon={faTwitter} className='icon' />
                         </a>
-                        <a target="_blank" href='https://m.facebook.com/people/Roberto-F-Peralta/1381050629' style={{textDecoration:'none',color: 'black'}}>
+                        <a rel="noreferrer" target="_blank" href='https://m.facebook.com/people/Roberto-F-Peralta/1381050629' style={{textDecoration:'none',color: 'black'}}>
                             <FontAwesomeIcon icon={faFacebook} className='icon' />
                         </a>
-                        <a target="_blank" href='https://www.youtube.com/user/arribalosbeatles' style={{textDecoration:'none',color: 'black'}}>
+                        <a rel="noreferrer" target="_blank" href='https://www.youtube.com/user/arribalosbeatles' style={{textDecoration:'none',color: 'black'}}>
                             <FontAwesomeIcon icon={faYoutube} className='icon' />
                         </a>
                     </div>

@@ -15,20 +15,20 @@ export default class Contacto extends Component {
                         </div>
                     </div>
                     <div className='social-media'>
-                        <a target="_blank" href='https://www.instagram.com/temataller/?utm_medium=copy_link' style={{textDecoration:'none',color: 'black'}}>
+                        <a rel="noreferrer" target="_blank" href='https://www.instagram.com/temataller/?utm_medium=copy_link' style={{textDecoration:'none',color: 'black'}}>
                             <FontAwesomeIcon icon={faInstagram} className='icon'/>
                         </a>
-                        <a target="_blank" href='https://twitter.com/roberprofmus' style={{textDecoration:'none',color: 'black'}}>
+                        <a rel="noreferrer" target="_blank" href='https://twitter.com/roberprofmus' style={{textDecoration:'none',color: 'black'}}>
                             <FontAwesomeIcon icon={faTwitter} className='icon' />
                         </a>
-                        <a target="_blank" href='https://es-la.facebook.com/TemaTaller' style={{textDecoration:'none',color: 'black'}}>
+                        <a rel="noreferrer" target="_blank" href='https://es-la.facebook.com/TemaTaller' style={{textDecoration:'none',color: 'black'}}>
                             <FontAwesomeIcon icon={faFacebook} className='icon' />
                         </a>
-                        <a target="_blank" href='https://www.youtube.com/channel/UCMNWeu1OY1GETJpN2xF0qaQ' style={{textDecoration:'none',color: 'black'}}>
+                        <a rel="noreferrer" target="_blank" href='https://www.youtube.com/channel/UCMNWeu1OY1GETJpN2xF0qaQ' style={{textDecoration:'none',color: 'black'}}>
                             <FontAwesomeIcon icon={faYoutube} className='icon' />
                         </a>
                     </div>
-                    <a target="_blank" className='send-wpp' href='https://wa.me/543854044595?text=Hola! Me gustaría saber mas de las clases.'>
+                    <a rel="noreferrer" target="_blank" className='send-wpp' href='https://wa.me/543854044595?text=Hola! Me gustaría saber mas de las clases.'>
                         <FontAwesomeIcon icon={faWhatsapp} className='icon'/>
                         <div className='send-wpp-text'>Enviar mensaje por Whats App</div>
                     </a>
