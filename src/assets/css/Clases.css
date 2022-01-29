@@ -1,0 +1,119 @@
+.clases-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.clases-container .clase-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  width: 100%;
+}
+
+.clases-container .clase-container .text-container {
+  padding: 40px;
+  flex: 3;
+  border: solid 1px black;
+  box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.7);
+}
+
+.clases-container .clase-container .text-container.right {
+  border-right: none;
+  text-align: end;
+}
+
+.clases-container .clase-container .text-container.left {
+  border-left: none;
+  text-align: left;
+}
+
+.clases-container .clase-container .text-container .title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  color: black;
+}
+
+.clases-container .clase-container .text-container .text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  color: #000000;
+}
+
+.clases-container .clase-container .image-container {
+  flex: 4;
+  background-size: cover;
+  margin: 10px;
+}
+
+.clases-container .clase-container .image-container.instrumentos {
+  background-image: url("../img/instrumentos.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.clases-container .clase-container .image-container.armonia {
+  background-image: url("../img/armonia.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.clases-container .clase-container .image-container.audio {
+  background-image: url("../img/partituralarga.svg");
+}
+
+.clases-container .clase-container .image-container.examen {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../img/exam.svg");
+}
+
+@media screen and (max-width: 500px) {
+  .clase-container {
+    flex-direction: column !important;
+  }
+  .clase-container .image-container {
+    flex: auto !important;
+    height: 200px;
+    order: 1;
+  }
+  .clase-container .image-container.instrumentos {
+    background-image: url("../img/instrumentosCel.svg") !important;
+  }
+  .clase-container .image-container.armonia {
+    background-size: cover !important;
+    background-position: left !important;
+  }
+  .clase-container .image-container.audio {
+    background-image: url("../img/partitura.svg") !important;
+  }
+  .clase-container .image-container.examen {
+    background-size: cover !important;
+    background-position: left !important;
+  }
+  .clase-container .text-container {
+    order: 2;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .image-container.instrumentos {
+    background-image: url("../img/instrumentosCel.svg") !important;
+  }
+  .image-container.armonia {
+    background-size: cover !important;
+    background-position: left !important;
+  }
+  .image-container.audio {
+    background-image: url("../img/partitura.svg") !important;
+  }
+  .image-container.examen {
+    background-size: cover !important;
+    background-position: left !important;
+  }
+}
