@@ -92,4 +92,7 @@
   .about-us-container .about-us-text .social-media {
     margin-top: 0px;
   }
+  .about-us-container .about-us-img {
+    height: 300px;
+  }
 }
